@@ -1,0 +1,46 @@
+.Product{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 80px rgba(0,0, 0, 0.065);
+    display: flex;
+    justify-content: space-evenly;
+    width: 50rem;
+    margin-top: 15px;
+}
+.button{
+    color: #6d28d9;
+    background-color: #fff;
+    border: 1px solid #6d28d9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.incriment{
+    background-color: #ede9fe;
+}
+.quantity{
+    display: inline-block;
+    background-color: #ede9fe;
+    color: #6d28d9;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    border:1px solid #6d28d9;
+    color: #6d28d9;
+    border-radius: 5px;
+    padding: 5px 5px;
+    outline: none;
+}
+.input:focus{
+    border: 2px solid #6d28d9;
+}
+.remove{
+    color: red;
+}
